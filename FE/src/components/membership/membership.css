@@ -1,0 +1,32 @@
+.membership_payment_type {
+    padding: 0px 20px 0px 10px;
+}
+
+.membership_payment_amount {
+    padding: 0px 10px 0px 20px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 768px) {
+    .membership_payment_type, .membership_payment_amount {
+        padding: 0px 10px;
+    }
+}
+
+.membership_input {
+    width: 100%;
+    font-weight: bold;
+    color: #707070;
+    background-color: #070707;
+    border-width: 0px;
+    outline: 0px;
+}
+
+.membership_method {
+    width: 96px;
+    height: 64px;
+    cursor: pointer;
+}
+.membership_method:hover {
+    opacity: 0.7;
+}

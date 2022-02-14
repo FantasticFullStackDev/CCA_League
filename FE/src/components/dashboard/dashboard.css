@@ -1,0 +1,12 @@
+.white_border {
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.bold_20 {
+    font-weight: bold;
+    margin-top: 16px;
+    font-size: 1.25rem;
+    color: #00ffcc;
+    width: 100%;
+}

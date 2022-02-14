@@ -1,0 +1,10 @@
+.main_body {
+    display: block;
+}
+
+@media (max-width: 992px) { 
+    .main_body {
+        padding-top: 10px;
+        padding-left: 30px;
+    }
+}

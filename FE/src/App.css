@@ -1,0 +1,21 @@
+.app {
+  padding: 0px 40px;
+  padding-bottom: 20px;
+  position: relative;
+  font-family: Poppins;
+  font-style: normal;
+  color: white;
+}
+
+.main_container {
+  max-width: 1520px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 768px) {  
+    .app {
+      padding: 0px 20px;
+    }
+}

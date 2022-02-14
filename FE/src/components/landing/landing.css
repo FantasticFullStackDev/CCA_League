@@ -1,0 +1,126 @@
+/********** HERO **********/
+.landing_hero {
+    margin-top: 40px!important;
+}
+
+.hero_title {
+    font-size: 3.3vw;
+}
+
+.hero_detail {
+    font-size: 1.6vw;
+    margin-top: 1.6vw;
+}
+
+@media (max-width: 992px) {  
+    .landing_hero{
+        margin-top: 10px!important;
+    }    
+}
+
+/********** ABOUT **********/
+.landing_about {
+    margin-top: 10vw!important;
+}
+
+.landing_about_img {
+    padding-right: 2.5vw!important;
+    /* width: 50%; */
+}
+
+.landing_about_detail {
+    padding-left: 2.5vw!important;
+}  
+
+.landing_about_text1 {
+    font-size: 1.25rem;
+    margin-bottom: 16px;
+}
+.landing_about_text2 {
+    font-size: 2rem;
+    margin-bottom: 32px;
+}
+
+.landing_about_text3 {
+    font-size: 1.25rem;
+    margin-bottom: 68px;
+}
+
+.landing_about_button {    
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 40px;
+    color: white;
+    background-color: #00ffcc;
+    float: left;
+    border-width: 0px;
+    font-size: 1.125rem;
+}
+
+@media (max-width: 992px) {  
+    .landing_about_img {
+        padding-right: 12px!important;
+        width: 100%;
+    }
+    
+    .landing_about_detail {
+        padding-left: 12px!important;
+    }   
+}
+
+/********** NEWS **********/
+.landing_news {
+    margin-top: 10vw!important;
+}
+
+.landing_news_title1 {
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.landing_news_title2 {
+    font-size: 2rem;
+    margin-top: 1vw;
+    margin-bottom: 6vw;
+    text-align: center;
+}
+
+.landing_news_item1 {
+    padding-right: 2.5vw!important;
+    margin-bottom: 6vw;
+}
+
+.landing_news_item2 {
+    padding-left: 2.5vw!important;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 992px) {  
+    .landing_news_item1 {
+        padding-right: 8px!important;
+    }
+    
+    .landing_news_item2 {
+        padding-left: 8px!important;
+    }
+}
+
+/********** FOOTER **********/
+.footer {
+    width: 100%;
+    margin-top: 5vw!important;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_detail {
+    width: 200px;
+    /* float: left; */
+}
+
+.footer_item {
+    width: fit-content;
+    /* float: right; */
+    margin-bottom: 30px;
+}

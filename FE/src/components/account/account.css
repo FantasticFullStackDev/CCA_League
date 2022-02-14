@@ -1,0 +1,11 @@
+.account_btn {
+    width: 252px;
+    height: 40px;
+    border: 1px solid #00ffcc;
+    color: white;
+    cursor: pointer;
+}
+
+.account_btn:hover {
+    opacity: 0.7;
+}
